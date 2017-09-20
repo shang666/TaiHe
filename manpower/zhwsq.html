@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>泰禾集团</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/mould.css"/>
+		<link rel="stylesheet" type="text/css" href="css/zhwsq.css"/>
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/countUp.js"></script>
+		<script src="../js/jquery.kxbdSuperMarquee.js"></script>
+		<script type="text/javascript" src="../js/myfocus-1.2.3.full.js"></script>
+		<script type="text/javascript" src="../js/index.js"></script>
+		<script type="text/javascript" src="../js/jquery.validate.js"></script>
+		  <script type="text/javascript">
+		  $(document).ready(function(){
+			$("#commentForm").validate({
+				rules: {
+					username: {
+						required: true,
+						minlength: 6
+					},
+					email: {
+						required: true,
+						email: true
+					},
+					hkszd:"required",
+					url:"url",
+					hy:"required",
+					comment: "required",
+					height: "required",
+				},
+				
+				messages: {
+					username: {
+						required: '此处不可空白',
+						minlength: '请至少输入六个字符'
+					},
+					email: {
+						required: '此处不可空白',
+						email: '请检查电子邮件的格式'
+					},
+					hkszd:'此处不可空白',
+					hy:'此处不可空白',
+					height:'此处不可空白',
+					url: '请检查网址的格式',
+					comment: '请输入您的评论'
+				},	
+				
+				errorElement: "em", //可以用其他标签，记住把样式也对应修改
+				success: function(label) {
+					//label指向上面那个错误提示信息标签
+					label.text("格式正确")				//清空错误提示消息
+						.addClass("success");	//加上自定义的success类
+				}
+		
+			  });
+		
+		  });
+		  </script>
+	</head>
+	<body> 
+		<!--=======================================header  开始-->
+		<header>
+			<div class="clearfix">
+				<h1><a href="index.html"><img src="../image/logo.png"/></a></h1>
+				<nav class="clearfix">
+					<ul class="clearfix">
+						<li><a href="../index.html">首页</a></li>
+						<li>
+							<a href="../About/About.html">走进泰禾</a>
+							<ul class="clearfix" id="ul_1">     
+								<li><a href="../About/About.html">董事长致辞</a></li>
+								<li><a href="../About/partner.html">控股股东</a></li>
+								<li><a href="../About/general/general.html">集团概况</a></li>
+								<li><a href="../About/road/road.html">泰禾之路</a></li>
+								<li><a href="../About/honour.html">集团荣誉</a></li>
+								<li><a href="../About/duty/duty.html">责任公益</a></li>
+							</ul>
+						</li>
+						<li>  
+							<a href="../News/News.html">新闻动态</a>
+							<ul class="clearfix">
+								<li><a href="../News/News.html">集团新闻</a></li>
+								<li><a href="../News/project.html">项目动态</a></li>	
+								<li><a href="../News/TV.html">泰禾TV</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="../Land/Land.html">泰禾地产</a>
+							<ul class="clearfix">  
+								<li><a href="../Land/Land.html">项目</a></li>
+								<li><a href="../Land/rummery.html">酒店</a></li>
+								<li><a href="../Land/service.html">服务</a></li>
+							</ul>
+						</li>
+						<li><a href="../Dybj/Dybj.html">多元布局</a></li>
+						<li>
+							<a href="../Investor/Investor.html">投资者关系</a>
+							<ul class="clearfix">     
+								<li><a href="../Investor/Investor.html">股票信息</a></li>
+								<li><a href="../Investor/affiche.html">临时公告</a></li>
+								<li><a href="../Investor/report.html">定期报告</a></li>
+								<li><a href="../Investor/govern.html">公司治理</a></li>
+								<li><a href="../Investor/column.html">独董监事专栏</a></li>
+								<li><a href="../Investor/NmFk.html">内幕交易防控</a></li>
+							</ul>
+						</li>
+						<li class="active">
+							<a href="manpower.html">人力资源</a>
+							<ul class="clearfix">
+								<li><a href="manpower.html">人才理念</a></li>
+								<li><a href="welfare.html">薪酬福利</a></li>
+								<li><a href="league.html">加盟泰禾</a></li>
+								<li><a href="foster.html">人才培养</a></li>
+								<li><a href="activity.html">员工活动</a></li>
+							</ul>
+						</li>
+						<li><a href="../contact/contact.html">联系泰禾</a></li>
+						<li>
+							<a href="javascript:;"><img src="../image/btnSearch.png"/></a>
+							<ul>
+								<li style="width: 280px;margin-left: 10px;"><input type="text" value="" /></li>
+								<li style="width: 60px;"><input type="button" value="搜索" /></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!--=======================================header  结束-->
+		
+		<!--=======================================content开始-->
+		<section class="content">
+			<div class="subNav">
+				<span>
+					<a href="../index.html">首页</a> >
+					<a href="Investor.html">人力资源</a> >
+					<a href="Investor.html">加盟泰禾</a>
+				</span>
+			</div>
+			<div class="min">
+				<h2>职位申请</h2>
+				<form action="" id="commentForm">
+					<table cellspacing="0" cellpadding="0" border="1" class="tab_box" style="border-collapse: collapse;">
+						<tr class="greTR">
+							<td colspan="4">基础信息 (应聘岗位-水电造价工程师)</td>
+						</tr>
+						<tr>
+							<td class="td_t">姓名:</td>
+							<td class="td_s"><input type="text" name="username"/> <span>*</span></td>
+							<td class="td_t">性别:</td>
+							<td class="td_s">
+								<input type="radio" name="sex" value="男" checked="checked"/> 男
+								<input type="radio" name="sex" value="女"/> 女
+							</td>
+						</tr>
+						<tr>
+							<td class="td_t">出生年月:</td>
+							<td class="td_s">
+								<input type="text" class="nyr" style="margin-left: 0;"/>年
+								<input type="text" class="nyr" />月
+								<input type="text" class="nyr"/>日
+							</td>
+							<td class="td_t">户口所在地:</td>
+							<td class="td_s"><input type="text" name="hkszd" /> <span>*</span></td>
+						</tr>
+						<tr>
+							<td class="td_t">婚育状况：	</td>
+							<td class="td_s"><input type="text" name="hy" /> <span>*</span></td>
+							<td class="td_t">身高:</td>
+							<td class="td_s"><input type="text" name="height" /></td>
+						</tr>
+						<tr>
+							<td class="td_t">政治面貌：	</td>
+							<td class="td_s"><input type="text" name="police" /> <span>*</span></td>
+							<td class="td_t">视力:</td>
+							<td class="td_s"><input type="text" name="sight" /></td>
+						</tr>
+						<tr>
+							<td class="td_t">主修专业：	</td>
+							<td class="td_s"><input type="text" name="major" /> <span>*</span></td>
+							<td class="td_t">目前所在地:</td>
+							<td class="td_s"><input type="text" name="present" /> <span>*</span></td>
+						</tr>
+						<tr>
+							<td class="td_t">个人联系地址：	</td>
+							<td class="td_s"><input type="text" name="location" /> <span>*</span></td>
+							<td class="td_t">毕业院校:</td>
+							<td class="td_s"><input type="text" name="school" /> <span>*</span></td>
+						</tr>
+						<tr>
+							<td class="td_t">联系电话：	</td>
+							<td class="td_s"><input type="text" name="phoneNumber" /> <span>*</span></td>
+							<td class="td_t">邮政编码:</td>
+							<td class="td_s"><input type="text" name="sendNumber" /></td>
+						</tr>
+						<tr>
+							<td class="td_t">电子邮箱：	</td>
+							<td class="td_s"><input type="text" name="email" /> <span>*</span></td>
+							<td class="td_t">QQ:</td>
+							<td class="td_s"><input type="text" name="qq" /> <span>*</span></td>
+						</tr>
+						<tr>
+							<td class="td_t">上传头像：	</td>
+							<td class="td_s" colspan="3"><input type="file" /></td>
+						</tr>
+						
+						<tr class="greTR">
+							<td colspan="4">求职意向</td>
+						</tr>
+						<tr>
+							<td class="td_t">期望月薪:</td>
+							<td class="td_s"><input type="text" /> <span>*</span></td>
+							<td class="td_t">期望工作:</td>
+							<td class="td_s">
+								<input type="radio" name="job" value="全职" checked="checked"/>全职
+								<input type="radio" name="job" value="兼职"/>兼职
+							</td>
+						</tr>
+						<tr>
+							<td class="td_t">目前状况:</td>
+							<td class="td_s textar" colspan="3">
+								<textarea cols="97" rows="10"></textarea> <span>*</span>
+							</td>
+						</tr>
+						
+						<tr class="greTR">
+							<td colspan="4">工作经历 (1)</td>
+						</tr>
+						<tr>
+							<td class="td_t">时间：</td>
+							<td class="td_s"><input type="text"class="sj" style="margin-left: 0;" />到<input type="text"class="sj" /></td>
+							<td class="td_t">所在公司:</td>
+							<td class="td_s"><input type="text" /> <span>*</span></td>
+						</tr>
+						<tr>
+							<td class="td_t">所在部门：	</td>
+							<td class="td_s"><input type="text" /> <span>*</span></td>
+							<td class="td_t">职位:</td>
+							<td class="td_s"><input type="text" /> <span>*</span></td>
+						</tr>
+						<tr>
+							<td class="td_t">工作描述:</td>
+							<td class="td_s textar" colspan="3">
+								<textarea cols="97" rows="10"></textarea> <span>*</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="zj" colspan="4"><a href="#">+增加</a></td>
+						</tr>
+						
+						<tr class="greTR">
+							<td colspan="4">教育经历 (1)</td>
+						</tr>
+						<tr>
+							<td class="td_t">时间：</td>
+							<td class="td_s"><input type="text" class="sj" style="margin-left: 0;"/>到<input type="text" class="sj"/></td>
+							<td class="td_t">院校:</td>
+							<td class="td_s"><input type="text" /> <span>*</span></td>
+						</tr>
+						<tr>
+							<td class="td_t">专业：	</td>
+							<td class="td_s"><input type="text" /> <span>*</span></td>
+							<td class="td_t">学历:</td>
+							<td class="td_s"><input type="text" /> <span>*</span></td>
+						</tr>
+						<tr>
+							<td class="zj" colspan="4"><a href="#">+增加</a></td>
+						</tr>
+						
+						<tr class="greTR">
+							<td colspan="4">自我评价</td>
+						</tr>
+						<tr>
+							<td class="td_s textar" colspan="4">
+								<textarea cols="123" rows="10"></textarea>
+							</td>
+						</tr>
+					</table>
+					<div class="tj">
+						<input type="submit" value="提交申请" />
+					</div>
+				</form>
+			</div>
+		</section>
+		
+		<!--=======================================content结束-->
+		
+		<!--=============================================footer 开始-->
+		<footer class="clearfix">
+			<div class="left">   
+				<p>
+					<a href="">信息披露</a>|
+					<a href="">法律声明</a>|
+					<a href="">网站地图</a>|
+					<a href="">联系我们</a>
+				</p>
+				<p>版权所有 泰禾集团 Copyright © 2017 Tahoe Group All Right Reserved.</p>
+				<p>闽ICP备05005533号 网站支持：海西天成</p>
+			</div>
+			<div class="right">
+				<p>关注我们:</p>
+				<div class="right_d">
+					<a href="" class="Wx">微信</a>
+					<a href="" class="Wb">微博</a>
+					<a href="" class="Fx">分享</a>
+				</div>
+				<img src="../image/imgEwmWx.png" class="WeiXin"/>
+				<img src="../image/imgEwmWb.png" class="WeiBo"/>
+				<div class="bdsharebuttonbox">
+					<a href="#" class="bds_tsina" data-cmd="tsina"></a>
+					<a href="#" class="bds_tqq" data-cmd="tqq"></a>
+					<a href="#" class="bds_qzone" data-cmd="qzone"></a>
+					<a href="#" class="bds_renren" data-cmd="renren"></a>
+					<a href="#" class="bds_h163" data-cmd="h163"></a>
+					<a href="#" class="bds_more" data-cmd="more"></a>
+				</div>
+				
+			</div>
+		</footer>
+		<!--=============================================footer 结束-->
+	</body>
+</html>

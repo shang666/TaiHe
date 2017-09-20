@@ -1,0 +1,31 @@
+
+
+ /*================left开始*/
+.content .min .left{width: 820px;margin:0 0 0 40px; border-right: 1px solid #dedede;padding-right: 40px;}
+.content .min .news{background: #fff;}
+.content .min .news h2,.sec_right .min h2{height: 75px; border-bottom: 1px solid #DADADA;padding-top: 10px;}
+.content .min .news h2 span,.sec_right .min h2 span{display: inline-block; width:108px;font-size: 24px;color: #444;line-height: 50px;padding-top:15px;font-weight: normal;}
+.content .min .news h2 a{display: inline-block; float: right; font-size: 14px;color: #999;font-weight: normal;line-height: 88px; padding-left: 20px;background: url(../image/tubiao.jpg) no-repeat left center;}
+.content .min .news h2 a:hover{color: #DD1721;background: url(../image/tubiaoH.jpg) no-repeat left center;}
+.content .min .news li{padding:25px 25px;border-bottom: 1px solid #dadada;}
+.content .min .news li a div{width: 200px;height: 134px; float: left;overflow: hidden;margin-right: 20px;}
+.content .min .news li a div img{width: 100%;transition: .8s;}
+.content .min .news li:hover{background: #DADADA;}
+.content .min .news li:last-of-type:hover{background: none;}
+.content .min .news li:hover a div img{transform: scale(1.2,1.2);}
+.content .min .news li a article{width: 550px; float: left;line-height: 26px;}
+.content .min .news li a article h3{font-size: 22px;color: #444;padding-top: 10px;}
+.content .min .news li a article span{font-size: 12px; color: #b7b7b7;}
+.content .min .news li a article p{font-size: 14px; color: #888;}
+
+.content .min .news li:last-of-type{display: block; padding: 0;height: 80px; text-align: center;line-height: 80px;border-bottom: none;}
+.content .min .news li:last-of-type>div:first-of-type{float:  left;}
+.content .min .news li:last-of-type>div a{display:inline-block;width: 42px;height: 42px;line-height: 42px;font-size: 18px;color: #99A1A7;margin-right: 5px; text-align: center;background: #E6E6E6; border-radius: 7px;}
+.content .min .news li:last-of-type>div a:hover,.content .min .news li:last-of-type>div .on{color: #fff;background: #DD1721;}
+.content .min .news li:last-of-type>div:last-of-type{float: right;}
+.content .min .news li:last-of-type>div:last-of-type a{width: 95px;}
+
+
+ /*================left结束*/
+
+/*=======================================min结束*/

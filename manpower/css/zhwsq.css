@@ -1,0 +1,21 @@
+/*==========================================职位申请min开始*/
+.min h2{width: 1100px;margin: 0 auto;height: 90px;line-height: 100px; text-align: center;font-size: 26px;color: #444;font-weight: normal;border-bottom: 1px solid #dedede;margin-bottom: 20px;}
+.min table{width: 900px;margin: 0 auto;border: 1px solid #DBDADA;}
+.min table .greTR{background: #62b178;height: 36px;line-height: 36px;}
+.min table .greTR td{color: #fff;padding-left: 15px;font-size: 16px;}
+.min table tr{height: 46px;}
+.min table .td_t{width: 156px; text-align: right;padding-right:10px ;background: #f2f2f2;}
+.min table .td_s{width: 292px; padding-left: 10px;}
+.min table .td_s .nyr{width: 55px !important;margin: 0 5px;}
+.min table .td_s .sj{width: 102px !important;margin: 0 5px;}
+.min table .td_s input[type="text"]{width: 240px;height: 30px;line-height: 30px;padding-left: 5px;}
+.min table .td_s input[type="radio"]{margin: 0 8px;}
+.min table span{font-size: 14px;color: red;font-weight: bold;}
+.min table .textar{padding-top: 5px;}
+.min table .zj{text-align: center;background: #f2f2f2;}
+.min table .zj a{font-size: 16px;color:#444;}
+.min .tj{width: 900px;margin: 10px auto;}
+.min .tj input{display: block; width: 100%;height: 42px;line-height: 42px;border: 0;border-radius: 4px;background: #e94c3d;color: #fff;font-size: 16px;cursor: pointer;}
+.min .tj input:hover{background: #BE382C;}
+/*==========================================职位申请min结束*/
+

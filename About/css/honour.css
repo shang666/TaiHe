@@ -1,0 +1,20 @@
+/*----------------------------------honour left开始*/
+.min .left{position: relative;}
+.min .left #news{width:100%;overflow:hidden;}
+.min .left #news{width: 600px;margin: 0 auto;}
+.min .left #news P{display: block; width:61px;height:130px;margin:0 12px;  float:left;text-align:center;background:url(../image/bgNavRy.jpg) no-repeat top center;cursor:pointer;}
+.min .left #news P i{display: block;font-style: normal;height: 60px;line-height: 60px;font-size: 14px;color: #666;}
+.min .left #news P span{display: block; height: 80px;line-height: 80px;font-size: 12px;color: #999;}
+.min .left #news .on,.min .left #news P:hover{background: url(../image/bgNavRyHover.jpg) no-repeat top center;}
+.min .left #news .on i,.min .left #news P:hover i{color: #fff;font-weight: bold;}
+.min .left .bor{width: 820px;height: 1px;border-bottom: 1px solid #DBDBDB;position: absolute; top: 186px;left: 0;}
+.min .left #tab>div{display: none ;}
+.min .left #tab>div ul{padding-top: 10px; background: url(../image/bgNavR.jpg) repeat-y 207px top;}
+.min .left #tab>div>span{display: block;font-size: 26px;height: 37px;line-height: 37px; padding-left: 55px;margin:10px 0 10px 190px;background: url(../image/icoClock2.png) no-repeat left center;}
+.min .left #tab>div ul li{display: inline-block; width: 100%;line-height:26px;padding-bottom: 20px;}
+.min .left #tab>div ul li i{display: inline-block;font-style: normal;color: #444; width: 161px;float: left; text-align: right;padding-right: 55px;background: url(../image/icoListRy.png) no-repeat right center;margin-right: 20px;}
+.min .left #tab>div ul li span{display: inline-block;font-size: 100%; color: #444; line-height: 26px;}
+.min .left #tab>div ul li>div{width: 450px; float: left;}
+.min .left #tab>div ul li:hover i{color: #E5493C;background: url(../image/icoListRyHover.png) no-repeat right center;}
+
+/*----------------------------------honourp left结束*/

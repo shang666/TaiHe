@@ -1,0 +1,7 @@
+/*----------------------------------parther left开始*/
+.content .min .left h3{width: 100%; font-size: 24px;height: 70px;line-height: 70px; text-align: center;}
+.content .min .left p{font-size: 16px;line-height: 30px; color: #444;margin-bottom: 15px;text-indent: 32px;}
+.content .min .left>img{display:block;margin-bottom: 15px;}
+.content .min .left a{display:block;width: 336px; height: 65px; overflow: hidden;margin: 0 auto;transition: .7s;margin-bottom:40px ;}
+.content .min .left a:hover{transform: scale(1.1,1.1);}
+/*----------------------------------parther left结束*/

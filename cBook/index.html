@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+	2017泰客会91期_TBook
+</title>
+<style type="text/css">
+body,td,th {
+	font-family: Courier New, Courier, monospace;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;width:100%;height:100%;
+}
+html{width:100%;height:100%;}
+</style>
+</head>
+<body>
+<div id="flashcontent" style="width:100%;height:100%;">
+	<embed type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="js/tcbook.swf" width="100%" height="100%" id="fplayer" name="fplayer" quality="high" swliveconnect="true" menu="false" allowscriptaccess="sameDomain" allowfullscreen="true" flashvars="mCode=20170628035835" >
+		</embed>
+</div>
+
+<script language="javascript" src="js/01.js"></script>
+<script language="JavaScript">
+	var orginFlash = {init:false,isFullScreen:false,position:"",top:"",left:"",width:"",height:""};
+	function writeFlash(){
+		var so = new SWFObject("js/tcbook.swf", "fplayer", "100%", "100%", 8, "#FFFFFF");
+		so.addParam("quality", "high");
+		so.addParam("swLiveConnect", "true");
+		so.addParam("menu", "false");
+		so.addParam("allowScriptAccess", "sameDomain");
+		so.addParam("allowFullScreen", "true");
+		so.addParam("FlashVars", "mCode=20170628035835");
+		so.write("flashcontent");
+	}
+	function getScreenSize(){
+		var w = 0;
+		var h = 0;
+		if( typeof( window.innerWidth ) == 'number' ) {
+			w = window.innerWidth;
+			h = window.innerHeight;
+		} else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
+			w = document.documentElement.clientWidth;
+			h = document.documentElement.clientHeight;
+		} else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+			w = document.body.clientWidth;
+			h = document.body.clientHeight;
+		}
+		return {width:w,height:h};
+	}
+	function fullScreen(){
+		if(!orginFlash.init){			
+			orginFlash.position = document.getElementById("flashcontent").style.position;
+			orginFlash.top = document.getElementById("flashcontent").style.top;
+			orginFlash.left = document.getElementById("flashcontent").style.left;
+			orginFlash.width = document.getElementById("flashcontent").style.width;
+			orginFlash.height = document.getElementById("flashcontent").style.height;
+		}
+		orginFlash.init = true;
+		orginFlash.isFullScreen = true;
+		var screenSize = getScreenSize();
+		try{
+			document.getElementById("flashcontent").style.position = "absolute";
+			document.getElementById("flashcontent").style.top = "0px";
+			document.getElementById("flashcontent").style.left = "0px";
+			document.getElementById("flashcontent").style.width = screenSize.width +"px";
+			document.getElementById("flashcontent").style.height = screenSize.height +"px";
+			document.body.style.overflow="hidden";
+			window.scrollTo(0,0);
+		}catch(e){
+		}
+	}
+	function normal(){
+		if(orginFlash.init){
+			orginFlash.isFullScreen = false;
+			try{
+				document.getElementById("flashcontent").style.position = orginFlash.position;
+				document.getElementById("flashcontent").style.top = orginFlash.top;
+				document.getElementById("flashcontent").style.left = orginFlash.left;
+				document.getElementById("flashcontent").style.width = orginFlash.width;
+				document.getElementById("flashcontent").style.height = orginFlash.height;
+				document.body.style.overflow="auto";
+			}catch(e){				
+			}
+		}
+	}
+	function reSize(){
+		if(orginFlash.isFullScreen){
+			fullScreen();
+		}
+	}
+	window.onresize = reSize;
+	writeFlash();
+</script>
+
+
+
+</body></html>

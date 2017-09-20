@@ -1,0 +1,9 @@
+.content .min .left #news p{width: 50%;float: left;text-align: center;height:70px; line-height: 70px;font-size: 18px;border-bottom: 2px solid #DEDEDE;}
+.content .min .left #news p:hover,.content .min .left #news .on{font-weight: bold;color: #DD1721;}
+.content .min .left #news .on{border-bottom: 2px solid #DD1721;}
+.content .min .left #tab ul li{padding:30px;background: #E9E9E9;margin-top: 10px;color:#444;transition: .4s;cursor: pointer;}
+.content .min .left #tab ul li:hover{background: #E94C3D;color: #fff;}
+.content .min .left #tab ul li h3{font-size: 20px;line-height: 26px;margin-bottom: 10px;}
+.content .min .left #tab ul li p{font-size: 14px;line-height: 26px;}
+.content .min .left #tab div>p{background: url(../image/icoEmail.jpg) no-repeat center 50px,none;text-align: center;padding-top: 120px;margin-bottom: 50px;}
+.content .min .left #tab>div{display: none;}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>泰禾集团</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/mould.css"/>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/countUp.js"></script>
+		<script src="js/jquery.kxbdSuperMarquee.js"></script>
+		<script type="text/javascript" src="js/myfocus-1.2.3.full.js"></script>
+	</head>
+	<body>
+		<!--=======================================header  开始-->
+		<header>
+			<div class="clearfix">
+				<h1><a href="index.html"><img src="image/logo.png"/></a></h1>
+				<nav class="clearfix">
+					<ul class="clearfix">
+						<li><a href="">首页</a></li>
+						<li>
+							<a href="" id="aaa">走进泰禾</a>
+							<ul class="clearfix" id="ul_1">     
+								<li><a href="">董事长致辞</a></li>
+								<li><a href="">控股股东</a></li>
+								<li><a href="">集团概况</a></li>
+								<li><a href="">泰禾之路</a></li>
+								<li><a href="">集团荣誉</a></li>
+								<li><a href="">责任公益</a></li>
+							</ul>
+						</li>
+						<li>  
+							<a href="">新闻动态</a>
+							<ul class="clearfix">
+								<li><a href="">集团新闻</a></li>
+								<li><a href="">项目动态</a></li>	
+								<li><a href="">泰禾TV</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="">泰禾地产</a>
+							<ul class="clearfix">  
+								<li><a href="">项目</a></li>
+								<li><a href="">酒店</a></li>
+								<li><a href="">服务</a></li>
+							</ul>
+						</li>
+						<li><a href="">多元布局</a></li>
+						<li>
+							<a href="">投资者关系</a>
+							<ul class="clearfix">     
+								<li><a href="">股票信息</a></li>
+								<li><a href="">临时公告</a></li>
+								<li><a href="">定期报告</a></li>
+								<li><a href="">公司治理</a></li>
+								<li><a href="">独董监事专栏</a></li>
+								<li><a href="">内幕交易防控</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="">人力资源</a>
+							<ul class="clearfix">
+								<li><a href="">人才理念</a></li>
+								<li><a href="">薪酬福利</a></li>
+								<li><a href="">加盟泰禾</a></li>
+								<li><a href="">人才培养</a></li>
+								<li><a href="">员工活动</a></li>
+							</ul>
+						</li>
+						<li><a href="">联系泰禾</a></li>
+						<li>
+							<a href="javascript:;"><img src="image/btnSearch.png"/></a>
+							<ul>
+								<li style="width: 280px;margin-left: 10px;"><input type="text" value="" /></li>
+								<li style="width: 60px;"><input type="button" value="搜索" /></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!--=======================================header  结束-->
+		
+		<!--=======================================content开始-->
+		
+		
+		<!--=======================================content结束-->
+		
+		
+		<!--=============================================footer 开始-->
+		<footer class="clearfix">
+			<div class="left">   
+				<p>
+					<a href="">信息披露</a>|
+					<a href="">法律声明</a>|
+					<a href="">网站地图</a>|
+					<a href="">联系我们</a>
+				</p>
+				<p>版权所有 泰禾集团 Copyright © 2017 Tahoe Group All Right Reserved.</p>
+				<p>闽ICP备05005533号 网站支持：海西天成</p>
+			</div>
+			<div class="right">
+				<p>关注我们:</p>
+				<div class="right_d">
+					<a href="" class="Wx">微信</a>
+					<a href="" class="Wb">微博</a>
+					<a href="" class="Fx">分享</a>
+				</div>
+				<img src="image/imgEwmWx.png" class="WeiXin"/>
+				<img src="image/imgEwmWb.png" class="WeiBo"/>
+				<div class="bdsharebuttonbox">
+					<a href="#" class="bds_tsina" data-cmd="tsina"></a>
+					<a href="#" class="bds_tqq" data-cmd="tqq"></a>
+					<a href="#" class="bds_qzone" data-cmd="qzone"></a>
+					<a href="#" class="bds_renren" data-cmd="renren"></a>
+					<a href="#" class="bds_h163" data-cmd="h163"></a>
+					<a href="#" class="bds_more" data-cmd="more"></a>
+				</div>
+				<script type="text/javascript">
+				//微信
+					$('.Wx').mouseenter(function() {
+						$('.WeiXin').show();
+						$('.bdsharebuttonbox').hide();
+					});
+					$('.Wx').mouseleave(function() {
+						$('.WeiXin').hide();
+					});
+				//微博
+					$('.Wb').mouseenter(function() {
+						$('.bdsharebuttonbox').hide();
+						$('.WeiBo').show();
+					});
+					$('.Wb').mouseleave(function() {
+						$('.WeiBo').hide();
+					});
+				//分享
+					$('.Fx').mouseenter(function() {
+						$('.bdsharebuttonbox').show();
+					});
+					$('.bdsharebuttonbox').mouseleave(function() {
+						$(this).hide();
+					});
+					$('.right').mouseleave(function() {
+						$('.bdsharebuttonbox').hide();
+					});
+					$('.dcNav a:last').css('margin-right', '0');
+		
+					$('.newsListText a').each(function(i) {
+						var index = $(this).index();
+						index = index + 1;
+						if(index % 5 == 0) {
+							$(this).addClass('line');
+						};
+					});
+				</script>
+				<script>
+					/*window._bd_share_config = {
+						"common": {
+							"bdSnsKey": {},
+							"bdText": "",
+							"bdMini": "2",
+							"bdPic": "",
+							"bdStyle": "0",
+							"bdSize": "16"
+						},
+						"share": {},
+						"image": {
+							"viewList": ["qzone", "tsina", "tqq", "renren", "h163"],
+							"viewText": "分享到：",
+							"viewSize": "16"
+						},
+						"selectShare": {
+							"bdContainerClass": null,
+							"bdSelectMiniList": ["qzone", "tsina", "tqq", "renren", "h163"]
+						}
+					};*/
+					with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+				</script>
+			</div>
+		</footer>
+		<!--=============================================footer 结束-->
+		
+	</body>
+</html>

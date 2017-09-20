@@ -1,0 +1,34 @@
+ /*================left开始*/
+.content .min .left{width: 820px;margin:0 0 0 40px; border-right: 1px solid #dedede;padding-right: 40px;}
+.content .min{background: #fff;}
+.content .min h2,.sec_right .min h2{height: 75px; border-bottom: 1px solid #DADADA;padding-top: 10px;}
+.content .min h2 span,.sec_right .min h2 span{display: inline-block; width:108px;font-size: 24px;color: #444;line-height: 50px;padding-top:15px;font-weight: normal;}
+.content .min h2 a{display: inline-block; float: right; font-size: 14px;color: #999;font-weight: normal;line-height: 88px; padding-left: 20px;background: url(../image/tubiao.jpg) no-repeat left center;}
+.content .min h2 a:hover{color: #DD1721;background: url(../image/tubiaoH.jpg) no-repeat left center;}
+
+.min .left ul{width: 100%;}
+.min .left ul li{ display: inline-block; width: 97.4%;line-height:26px;padding-bottom: 20px; padding-left: 20px;position: relative;}
+.min .left ul li:before{content: ""; display: block; width: 3px;height: 3px; background: #B2B2B2;position: absolute;top: 11px;left: 4px;}
+.min .left ul .bor{border-bottom: 1px solid #DEDEDE;margin-bottom: 20px;}
+.min .left ul li a{display: inline-block; font-size: 16px;color: #444;}
+.min .left ul li a:hover{color: #DD1721;}
+.min .left ul li span{display: inline-block; float: right;color: #999; font-size: 14px;}
+.min  ul:last-of-type{border: 0;}
+.content .min .left ul:last-of-type li{display: block; padding: 0;height: 80px; text-align: center;line-height: 80px;border-bottom: none;}
+.content .min .left ul:last-of-type li:before{background: none;}
+.content .min .left li:last-of-type>div:first-of-type{float:  left;}
+.content .min .left li:last-of-type>div a{display:inline-block;width: 42px;height: 42px;line-height: 42px;font-size: 18px;color: #99A1A7;margin-right: 5px; text-align: center;background: #E6E6E6; border-radius: 7px;}
+.content .min .left li:last-of-type>div a:hover,.content .min .left li:last-of-type>div .on{color: #fff;background: #DD1721;}
+.content .min .left li:last-of-type>div:last-of-type{float: right;}
+.content .min .left li:last-of-type>div:last-of-type a{width: 95px;}
+
+
+ /*================left结束*/
+
+
+
+
+
+
+
+

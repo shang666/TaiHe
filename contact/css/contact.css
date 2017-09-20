@@ -1,0 +1,21 @@
+/*=======================================min开始*/
+.content .min{width: 1120px;background: #fff;box-shadow: 0 0 5px #ccc;padding: 40px;}
+.content .min h2{font-size: 26px;color: #414141;height: 50px; line-height: 30px;font-weight: normal;}
+
+.content .min .lx_top{width: 1080px;padding:20px;background: url(../image/bgContact_03.png) no-repeat right bottom,#DD1822;}
+.content .min .lx_top>div{width: 50%;float: left;}
+.content .min .lx_top h4,.content .min ul li h4{height:60px;border-bottom: 1px solid #E25754;}
+.content .min .lx_top h4 span,.content .min ul li h4 span{display: inline-block; line-height: 57px; font-size: 26px;font-weight: bold;color: #fff;border-bottom: 4px solid #fff;}
+.content .min .lx_top p,.content .min ul li p{font-size: 14px;color: #fff; line-height: 30px;margin-top: 10px;}
+.content .min .lx_top .lx_topr{padding-left:2%;width: 48%;}
+
+.content .min ul{margin-top: 10px;}
+.content .min ul li{width: 540px;float: left;margin-right: 40px;margin-top: 10px;}
+.content .min ul li:nth-child(even){margin-right: 0;}
+.content .min ul li h4{border-bottom: 1px solid #DADADA;height: 50px;}
+.content .min ul li h4 span{color: #444;font-size: 18px; border-bottom: 4px solid #E0E0E0;line-height: 47px;}
+.content .min ul li p{color: #444444;margin-top: 5px;line-height: 28px;}
+
+/*=======================================min结束*/
+
+

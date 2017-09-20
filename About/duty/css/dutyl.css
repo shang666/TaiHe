@@ -1,0 +1,19 @@
+/*----------------------------------general left开始*/
+.content .min .left h2{margin-bottom: 0;}
+.content .min .left>div{width: 100%;height: 70px; border-bottom: 2px solid #DEDEDE;}
+.content .min .left>div a{display: inline-block;width: 19.59%;text-align: center;font-size: 18px;color: #444;height: 70px;line-height: 70px;}
+.content .min .left>div a:hover{ font-weight: bold;  color: #DD1721;}
+.content .min .left>div .show{border-bottom: 2px solid #DD1721; font-weight: bold; color: #DD1721;}
+
+.content .min .left ul li{display: inline-block;width: 440px;margin-bottom: 10px;}
+.content .min .left ul li i{display:block; font-style: normal;font-size: 40px;color: #e94c3d; font-family: "宋体";letter-spacing: -4px;height: 58px;line-height: 58px;}
+.content .min .left ul li span{display: block; font-size: 14px;color: #444; }
+.content .min .left ul .li_r{margin-left: 380px;}
+.content .min .left ul .li_r i{padding-left: 80px; background: url(../image/icoZrgy.jpg) no-repeat left top;}
+.content .min .left ul .li_r span{padding-left: 80px;}
+.content .min .left ul .li_l{text-align: right;}
+.content .min .left ul .li_l i{padding-right: 80px; background: url(../image/icoZrgy.jpg) no-repeat right center;}
+.content .min .left ul .li_l span{padding-right: 80px;}
+.content .min .left article{background: url(../image/bgNavR.jpg) repeat-y center;padding-bottom: 100px;min-height: 350px;overflow: hidden;}
+
+/*----------------------------------general left结束*/

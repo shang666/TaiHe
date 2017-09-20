@@ -1,0 +1,20 @@
+
+<?xml version="1.0" encoding="gb2312"?>
+<AibookConfig>
+  <BaseConfig>
+    <version>2010101s</version>
+    <siteUrl>http://www.txwl.cn</siteUrl>
+    <bookStyle>default</bookStyle>
+    <bookMusic>刘力扬 - Rain.布莱梅.mp3</bookMusic>
+    <bookLan>中文简体</bookLan>
+  </BaseConfig>
+  <styleConfig>
+    <pageMargin>15</pageMargin>
+  </styleConfig>
+  <MenuConfig>
+    <item>gohome</item>
+    <item>subscribe</item>
+    <item>guessbook</item>
+    <item>help</item>
+  </MenuConfig>
+</AibookConfig>

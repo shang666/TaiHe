@@ -1,0 +1,55 @@
+.content .min .left #news{margin-bottom: 20px;}
+.content .min .left #news p{width: 25%;float: left;text-align: center;height:70px; line-height: 70px;font-size: 18px;border-bottom: 2px solid #DEDEDE;}
+.content .min .left #news p:hover,.content .min .left #news .on{font-weight: bold;color: #DD1721;}
+.content .min .left #news .on{border-bottom: 2px solid #DD1721;}
+.content .min .left #tab>div{display: none;}
+
+.min #tab ul{width: 100%;}
+.min #tab ul li{ display: inline-block; width: 97.4%;line-height:26px;padding-bottom: 20px; padding-left: 20px;position: relative;}
+.min #tab #tab1 ul li:before{content: ""; display: block; width: 3px;height: 3px; background: #B2B2B2;position: absolute;top: 11px;left: 4px;}
+.min #tab ul .bor{border-bottom: 1px solid #DEDEDE;margin-bottom: 20px;}
+.min #tab ul li a{display: inline-block; font-size: 16px;color: #444;}
+.min #tab ul li a:hover{color: #DD1721;}
+.min #tab ul li span{display: inline-block; float: right;color: #999; font-size: 14px;}
+.min #tab #tab1 ul li:last-of-type:before{background: none;}
+.content .min #tab li>div:first-of-type{float:  left;}
+.content .min #tab li>div a{display:inline-block;width: 42px;height: 42px;line-height: 42px;font-size: 18px;color: #99A1A7;margin-right: 5px; text-align: center;background: #E6E6E6; border-radius: 7px;}
+.content .min #tab li>div a:hover,.content .min #tab li>div .on{color: #fff;background: #DD1721;}
+.content .min #tab li>div:last-of-type{float: right;}
+.content .min #tab li>div:last-of-type a{width: 95px;}
+
+.content .min #tab2 select{display: block; width:280px;height: 36px;border: 1px solid #ccc;margin: 0 auto;margin-bottom:20px ;outline: none;cursor: pointer;}
+.content .min #tab2 table{border-top: 1px solid #E5E5E5;margin-bottom: 20px;}
+.content .min #tab2 table th span{display: inline-block; width: 100%; height: 30px;line-height: 30px; border-right: 1px solid #E5E5E5;}
+.content .min #tab2 table th:last-of-type span{border-right: 0;}
+.content .min #tab2 table td,.content .min #tab2 table th{font-size: 14px;color: #444; border-bottom: 1px solid #E5E5E5;text-align: center;line-height: 50px;}
+.content .min #tab2 table td a{font-size: 14px;color: #444;}
+.content .min #tab2 table td a:hover{color: #DD1721;}
+.content .min #tab2 table td:last-of-type a{display: block;width: 60px;color: #fff;line-height: 30px; border-radius: 4px;background: #A3A3A3;margin-left: 15px;}
+.content .min #tab2 table td:last-of-type a:hover{background: #E94C3D;}
+.content .min #tab2 .tab2{display: none;}
+.content .min #tab2 .tab2 td p{line-height: 30px;margin:10px 0;color: #444;}
+.content .min #tab2 .tab2 th{text-align: right;padding-right: 20px; background: #F3F3F3;}
+.content .min #tab2 .tab2 td{text-align: left;padding-left: 10px;}
+.content .min #tab2 .shenQ{width: 100%; display: block;font-size: 14px;line-height: 46px; color: #fff;text-align: center; background: #a3a3a3;}
+.content .min #tab2 .shenQ:hover{background: #E94C3D;}
+
+
+.content .min #tab3 ul{padding-top: 22px;margin-left: 29px;}
+.content .min #tab3 ul li{position: relative; width: 175px;height: 80px;line-height: 90px;float: left;margin: 45px 40px;text-align: center; padding:115px 0 0 0;font-size: 22px;color: #444;font-weight: bold;cursor: pointer;}
+.content .min #tab3 ul li i{display: block;width: 45px;font-weight: normal;height: 49px;line-height: 49px;font-size: 18px;color: #fff;background: url(../image/Yp_03.png) no-repeat center center;position: absolute; top: -25px;left: 68px;}
+.content .min #tab3 ul li:first-of-type{background: url(../image/Yp_10.png) no-repeat center center,#F0EEE1;}
+.content .min #tab3 ul li:nth-of-type(2){background: url(../image/Yp_13.png) no-repeat center center,#F0EEE1;}
+.content .min #tab3 ul li:nth-of-type(3){background: url(../image/Yp_07.png) no-repeat center center,#F0EEE1;}
+.content .min #tab3 ul li:nth-of-type(4){background: url(../image/yp_19.png) no-repeat center center,#F0EEE1;}
+.content .min #tab3 ul li:nth-of-type(5){background: url(../image/Yp_25.png) no-repeat center center,#F0EEE1;}
+.content .min #tab3 ul li:nth-of-type(6){background: url(../image/Yp_22.png) no-repeat center center,#F0EEE1;}
+.content .min #tab3 ul li:last-of-type{background: url(../image/Yp_31.png) no-repeat center center,#F0EEE1;width:683px;}
+.content .min #tab3 ul li:last-of-type i{left: 47%;}
+
+.content .min #tab4{margin-top: 40px;position: relative;}
+.content .min #tab4>div{width: 520px;margin-left: 30px;}
+.content .min #tab4 h4{font-size: 18px;color: #444;line-height: 50px;font-weight: bold;border-bottom: 1px solid #E1E1E1;position: relative;}
+.content .min #tab4 h4 span{display: block;width: 150px;height: 4px;background: #E0E0E0;position: absolute;left: 0;bottom: -1px;}
+.content .min #tab4 p{font-size: 14px;color: #444;line-height: 30px;margin: 5px 0 30px 0;}
+.content .min #tab4 img{position: absolute;right: 0;top: -30px;}

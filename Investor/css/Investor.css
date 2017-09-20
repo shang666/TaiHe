@@ -1,0 +1,33 @@
+
+.min .left{position: relative;}
+.min .left #news{width:100%;overflow:hidden;}
+.min .left #news{width: 600px;margin: 0 auto;}
+.min .left #news P{display: block; width:61px;height:130px;margin:0 12px;  float:left;text-align:center;background:url(../image/bgNavRy.jpg) no-repeat top center;cursor:pointer;}
+.min .left #news P i{display: block;font-style: normal;height: 60px;line-height: 60px;font-size: 14px;color: #666;}
+.min .left #news P span{display: block; height: 80px;line-height: 80px;font-size: 12px;color: #999;}
+.min .left #news .on,.min .left #news P:hover{background: url(../image/bgNavRyHover.jpg) no-repeat top center;}
+.min .left #news .on i,.min .left #news P:hover i{color: #fff;font-weight: bold;}
+.min .left #news .on span{font-weight: bold;}
+.min .left .bor{width: 820px;height: 1px;border-bottom: 1px solid #DBDBDB;position: absolute; top: 186px;left: 0;}
+.min .left #tab>div{display: none ;}
+
+.min .left  #tab ul li{width: 100%; border-bottom: 2px solid #E9E9E9;padding:20px 0px;transition: 1s;position: relative;}
+.min .left  #tab ul li:hover{background: #E9E9E9;}	
+.min .left  #tab ul li a{display: block;}
+.min .left  #tab ul li a div{width: 78px;height: 88px;background: #E9E9E9;float: left;text-align: right;padding-right: 10px;font-size: 14px; color: #888;margin-right: 30px;}
+.min .left  #tab ul li a div span{display: inline-block;width: 43px; margin-bottom: 8px; font-size: 36px;color: #EA1400;height: 53px;line-height: 53px;border-bottom: 2px solid #c2c2c2;}	
+.min .left  #tab ul li a>span{display: block; width: 640px;float: left;}
+.min .left  #tab ul li a>span h3{font-size: 22px;color: #444;line-height: 30px; font-weight: bold;}
+.min .left  #tab ul li a>span i{display: inline-block; font-style: normal; font-size: 14px; color: #999;margin-top: 5px;}
+.min .left  #tab ul li a>i{display: block;width: 40px;height: 36px;background: url(../image/icoPdf.png) no-repeat center; position: absolute;top: 40px;right: 20px;}
+
+
+.min .left  #tab ul li:last-of-type{display: block; padding: 0;height: 80px;background: none; text-align: center;line-height: 80px;border-bottom: none;}
+.min .left  #tab ul li:last-of-type>div:first-of-type{float:  left;}
+.min .left  #tab ul li:last-of-type>div a{display:inline-block;width: 42px;height: 42px;line-height: 42px;font-size: 18px;color: #99A1A7;margin-right: 5px; text-align: center;background: #E6E6E6; border-radius: 7px;}
+.min .left  #tab ul li:last-of-type>div a:hover,.min .left  #tab ul li:last-of-type:last-of-type>div .on{color: #fff;background: #DD1721;}
+.min .left  #tab ul li:last-of-type>div:last-of-type{float: right;}
+.min .left  #tab ul li:last-of-type>div:last-of-type a{width: 95px;}
+
+ /*================left结束*/
+/*=======================================min结束*/

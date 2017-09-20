@@ -1,0 +1,10 @@
+
+.content .min .left{width: 820px;margin:0 0 0 40px;padding-right: 40px; border-right: 1px solid #dedede;}
+.content .min .left h2{font-size: 26px; color: #444;font-weight: normal; width: 100%;height: 90px;line-height: 110px;border-bottom: 1px solid #dedede;margin-bottom: 20px;}
+.content .min .left .left_top{height: 360px;}
+.content .min .left .left_top img{display: block;width: 530px; height: 360px; float: left;}
+.content .min .left .left_top>div{float: left;width: 260px; height: 234px;background: #F1F1F1;padding: 126px 0 0 30px;}
+.content .min .left .left_top>div h3{font-size: 26px;color: #444;font-weight: normal;margin-bottom: 10px;}
+.content .min .left .left_top>div span{font-size: 14px;color: #444;line-height: 30px;}
+.content .min .left .text{width: 90%; height: 400px; background: url(../image/imgDsz1.png) no-repeat left top;padding:6% 0 0 8%;}
+.content .min .left .text p{width: 96%; font-size: 16px; color: #444;text-indent: 32px;line-height: 30px;margin-bottom: 10px;}

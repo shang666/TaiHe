@@ -1,0 +1,69 @@
+#header{position:absolute;top:0;z-index:2;}
+#footer{position:absolute;bottom:0;background:#fff;z-index:2}
+.fl{float:left}
+.fr{float:right}
+/*body{margin:0;padding:0;width:100%;min-height:680px;min-width:1000px;_width:expression(document.body.clientWidth < 1000 ? "1000px":"auto");}*/
+#banner_full{width:100%;overflow:hidden; margin-top:-10px;}
+#banner_full li{display:none;position:relative;width:100%;height:100%;}
+#banner_full .hotelImg{position:absolute;z-index:0;top:0;width:1680px; height:900px}
+#banner_full li .hotea{width:214px;height:214px;position:absolute;right:0;top:0;cursor:pointer;z-index:auto;}
+#bg_control{position:absolute;bottom:100px;z-index:1; background:url(../hotel/hotelCR.png) no-repeat;width:115px;height:45px;}
+#bg_number{float:left;width:45px;height:45px;line-height:45px;position:relative;font-family:"微软雅黑"}
+#bg_number h1{ position:absolute;font-size:16px;color:#000;left:12px;top:-5px}
+#bg_number h2{ position:absolute;font-size:12px;color:#9d9d9d;left:26px;top:3px;}
+#bg_page{height:20px;float:left;display:none}
+#bg_page li{float:left;width:20px;height:20px; background:#CCC;cursor:pointer}
+#bg_page .on{background:#900}
+#bg_up{float:left;width:35px;height:45px;cursor:pointer}
+#bg_down{float:right;width:35px;height:45px;cursor:pointer}
+.boxNav{height:85px;width:100%;bottom:84px;position:absolute;z-index:3}
+.boxNav .boxNavbox{height:85px;width:100%;background:#a47135;background:rgba(216,166,107,0.95) !important;filter:alpha(opacity=95);}
+.boxNav ul{position:relative;}
+.boxNav li{float:left;width:25%;*width:24.9%;height:85px;text-align:center; background:url(../hotel/liright.jpg) no-repeat right}
+.boxNav li a{margin:0 auto;display:block;height:63px;font-family:"微软雅黑";text-align:left;cursor:pointer;padding-left:85px;padding-top:22px;background-repeat:no-repeat;background-position:20px 12px;}
+#hotelnews{margin-left:40px;}
+.boxNav li h1{font-size:16px;color:#fff;}
+.boxNav li h2{font-size:11px;color:#fff;-moz-opacity:0.5;opacity:0.5;filter:alpha(opacity=50);}
+.boxNav li .Nav1{background-image:url(../hotel/hotel01.png);}
+.boxNav li .Nav2{background-image:url(../hotel/hotel02.png);}
+.boxNav li .Nav3{background-image:url(../hotel/hotel03.png);}
+.boxNav li .Nav4{background-image:url(../hotel/hotel04.png);border-right:none;}
+.fullbg{width:100%;height:100%;left:0;top:0;position:absolute; z-index:101;display:none}
+.fullbox{width:100%;height:100%;background:#000;background:rgba(0,0,0,0.8) !important;filter:alpha(opacity=80);  overflow:hidden}
+.fullbox .fullM{position:relative;width:990px;margin:0 auto;padding:40px 0;}
+.fullbox .close{width:50px;height:50px; background:url(../hotel/bdcolse.png) no-repeat; cursor:pointer; position:absolute;right:-20px;top:20px; z-index:5}
+.fullbox .fullMb{width:989px; height:100%;background:#fff;display:none}
+.fullbox .fullMb .ftop{height:80px; background:#deac71;}
+.fullbox .fullMb .fimg{margin:40px 40px 0 40px;}
+.fullbox .fullMb .fbox{background:#fafafa;border:1px solid #dfdfdf;width:249px;height:171px;float:left;padding:10px 20px 20px 20px;margin-right:8px;margin-top:20px}
+.fullbox .fullMb .fbox h1{color:#d59952;font-size:14px;font-weight:bold;height:25px;line-height:25px;padding-top:5px;}
+.fullbox .fullMb .fbox a{line-height:24px;color:#000;display:block;height:24px;}
+.fullbox .fullMb .fullTl{height:95px;padding-top:32px;}
+.fullbox .fullMb .fullT2{height:87px;line-height:87px;text-align:center;font-size:26px; font-weight:bold;border-bottom:1px solid #c6c6c6;}
+.fullbox .fullMb .fullby{overflow-x:hidden;overflow-y:auto;margin:20px 40px 0 40px;}
+.fullbox .fullMb .fullby p{line-height:30px;color:#000;font-size:12px;font-size:16px;}
+.by2{height:524px;}
+.by2 ul{overflow:hidden;height:524px;}
+.by2 li{height:90px;padding:18px 0;border-bottom:1px dotted #c6c6c6;cursor:pointer}
+.by2 li a{}
+.by2 li a:hover h3{color:#ea600b;}
+.by2 li a:hover h4{color:#666;}
+.by2 .fl{width:120px;height:90px;background:url(../hotel/hotel14.jpg) no-repeat; text-align:center;color:#fff}
+.by2 .fr{width:770px;line-height:18px;height:90px;}
+.by2 .fr h3{font-size:18px;height:20px;line-height:20px;clear:both;color:#444;font-family:"微软雅黑";padding:3px 0}
+.by2 .fr h3 span{float:left}
+.by2 .fr h3 time{float:right;color:#999;font-size:14px;}
+.by2 .fr h4{color:#999;height:60px;line-height:20px;}
+.by2 .on .fl{background:url(hotel13.jpg) no-repeat;}
+.by2 .lxwm{line-height:22px;padding:30px 0 0 17px;}
+.by2 .lxwm h1{color:#000;font-size:16px;font-weight:bold;}
+#b5 p{padding-bottom:10px;}
+#b10 .fl{width:291px;margin-right:18px;margin-top:20px}
+#b10 .fbox{margin:0;height:250px;overflow:auto}
+#b10 .fbox h1{font-size:12px;}
+#b10 .fbox a:hover{color:#d59952;}
+#b10 .ftt{color:#d59952;padding:20px 0 0 40px;}
+#b11 .fullby{padding-top:20px;}
+#b11 .lxwmL{float:left;padding:7px;border:1px solid #dcdcdc;}
+#b11 .lxwm{float:left;color:#000;line-height:30px;padding:65px 0 0 35px;}
+#b11 .lxwm strong{font-size:14px;}

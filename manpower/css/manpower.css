@@ -1,0 +1,10 @@
+.content .min .left h3{font-size: 22px;color: #444;height: 90px;line-height: 90px;margin-top: 10px;}
+.content .min .left div{width: 100%;height: 284px;font-size: 18px;color: #444444;line-height: 36px;}
+.content .min .left div:first-of-type{background: url(../image/imgRcln_02.png) no-repeat top center;position: relative;height: 184px; font-size: 34px; font-weight: bold; color: #2971B9;text-align: right;padding-top: 100px;}
+.content .min .left div:first-of-type span{display: block;font-size: 16px;padding-right: 40px;margin-top: 20px;font-weight: normal;}
+.content .min .left div:first-of-type img{display: block;position: absolute;top: 50px;left: 40px;}
+
+.content .min .left div:nth-of-type(2){background: url(../image/lN_img_03.jpg) no-repeat 616px bottom,url(../image/lN_img_06.jpg) no-repeat 462px bottom,#F0EEE2;width: 780px; height: 184px; padding: 100px 0 0 40px;}
+.content .min .left div:nth-of-type(3){background: url(../image/lN_img_11.jpg) no-repeat 40px top,url(../image/lN_img_13.jpg) no-repeat 200px top,#E9E3C3;text-align: right; height: 184px;width: 790px; padding: 100px 30px 0 0px;}
+.content .min .left div:last-of-type{background: url(../image/lN_img_02.png) no-repeat center bottom,#D2DBB0; height: 184px;width: 770px; padding: 100px  0 0 50px;}
+

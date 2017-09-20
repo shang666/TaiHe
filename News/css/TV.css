@@ -1,0 +1,25 @@
+
+/*================left开始*/
+.content .min .left .news>div{width: 100%;height: 70px; border-bottom: 2px solid #DEDEDE;margin-bottom: 20px;}
+.content .min .left .news>div a{display: inline-block;width: 49.7%;text-align: center;font-size: 18px;color: #444;height: 70px;line-height: 70px;}
+.content .min .left .news>div a:hover{ font-weight: bold;  color: #DD1721;}
+.content .min .left .news>div .show{border-bottom: 2px solid #DD1721; font-weight: bold; color: #DD1721;}
+
+.content .min .news ul:first-of-type li{width: 400px;float: left;margin-bottom: 20px;}
+.content .min .news ul:first-of-type .l{margin-right: 20px;}
+.content .min .news ul:first-of-type li a div{width:100%;height: 260px; overflow: hidden;position: relative;}
+.content .min .news .ul_1 li a div span{display: block; width:100%;height: 100%; background: url(../image/icoVideo.png) no-repeat center, rgba(68,68,68,0.5); position:absolute;top: 0; left: 0;z-index: 12345678; opacity: 0;transition: .5s;}
+.content .min .news .ul_1 li:hover a div span{opacity: 1;}
+.content .min .news ul:first-of-type li a div img{display: block; width: 100%;height: 100%; transition: .8s;}
+
+.content .min .news ul:first-of-type li:hover a div img{transform: scale(1.2,1.2);background: url(../image/icoVideo.png) no-repeat center;}
+.content .min .news ul:first-of-type li p{width: 100%;height: 50px;font-size: 16px;color: #444; background: #F5F4F0;text-align: center;line-height: 50px;transition: .5s}
+.content .min .news ul:first-of-type li:hover p{color: #fff;background: #E94C3D;}
+
+.content .min .news ul:last-of-type li{display: block; padding: 0;height: 80px; text-align: center;line-height: 80px;border-bottom: none;}
+.content .min .news li:last-of-type>div:first-of-type{float:  left;}
+.content .min .news ul:last-of-type li div a{display:inline-block;width: 42px;height: 42px;line-height: 42px;font-size: 18px;color: #99A1A7;margin-right: 5px; text-align: center;background: #E6E6E6; border-radius: 7px;}
+.content .min .news ul:last-of-type li div a:hover,.content .min .news ul:last-of-type li div .on{color: #fff;background: #DD1721;}
+.content .min .news ul:last-of-type li div:last-of-type{float: right;}
+.content .min .news ul:last-of-type li div:last-of-type a{width: 95px;}
+ /*================left结束*/
